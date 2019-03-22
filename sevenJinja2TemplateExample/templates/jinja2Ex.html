@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>An Example Flask Template structure by Using Jinja2 dynamical creation of web page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+      .container {
+        max-width: 600px;
+        padding-top: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>Hello Jinja2 template, Here comes say a big Welcome to : {{my_string}}</p>
+      <p>For corresponding keys {{my_dict.keys()}} the respective values are {{my_dict.values()}}</p>
+      <p>Loop through the dictionary:</p>
+      <ul>
+        {% for (n,k) in my_dict.items() %}        
+         <li>For corresponding key "{{n}}" the respective value is : --> "{{k}}"</li>
+         {%endfor%}
+      </ul>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
