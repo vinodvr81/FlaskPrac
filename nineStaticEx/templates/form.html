@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8"/>
+
+<html>
+
+	
+
+	<head>
+
+		<title>Python(Flask) use case of static folder (where JS and CSS) files for styling and functionality</title>
+
+	</head>
+
+
+
+	<body>
+
+		The content of the document......
+
+
+		
+
+		<form action="#" name="myForm" onsubmit="return(validate());">
+
+		<table cellspacing="2" cellpadding="2" border="1">	
+
+		<tr>
+
+			<td align="right">Name</td>
+
+			<td><input type="text" name="Name"/></td>
+
+		</tr>	
+
+		<tr>
+
+			<td align="right">EMail</td>
+
+			<td><input type="text" name="EMail"/></td>
+
+		</tr>
+
+		<tr>
+
+			<td align="right">Zip code</td>
+
+			<td><input type="text" name="Zip"/></td>
+
+		</tr>
+
+		
+
+		<tr>
+
+               <td align="right">Country</td>
+
+               <td>
+
+                  <select name="Country">
+
+                     <option value="-1" selected>[choose yours]</option>
+
+                     <option value="1">Srilanka</option>
+
+                     <option value="2">Nepal</option>
+
+                     <option value="3">INDIA</option>
+
+                  </select>
+
+               </td>
+
+            </tr>
+
+            
+
+            <tr>
+
+               <td align="right"></td>
+
+               <td><input type="submit" value="Submit" /></td>
+
+            </tr>
+
+            
+
+         </table>
+
+		</table>
+
+		
+
+		</form>
+
+	
+	</body>
+
+
+
+	<script language="javascript" type= "text/javascript" src = "{{url_for('static',filename='first.js')}}">
+
+	</script>
+
+
+
+</html>
