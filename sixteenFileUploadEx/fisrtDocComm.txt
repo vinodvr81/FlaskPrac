@@ -1,0 +1,13 @@
+    1  ip
+    2  ipconfig
+    3  sudo apt-get update && apt-get upgrade
+    4  su root
+    5  sudo apt-get update
+    6  sudo apt-get upgrade
+    7  history
+    8  sudo docker run --rm -it -p 8008:8888 bigdatateam/hdfs-notebook
+    9  sudo poweroff
+   10  sudo docker run --rm -it -p 8008:8888 bigdatateam/hive-course2
+   11  history
+   12  cd Documents/
+   13  history > fisrtDocComm.txt
