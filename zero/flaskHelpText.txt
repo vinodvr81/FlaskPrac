@@ -1,0 +1,70 @@
+['Blueprint', 'Config', 'Flask', 'Markup', 'Request', 'Response', 'Session', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__', '__version__', '_app_ctx_stack', '_compat', '_request_ctx_stack', 'abort', 'after_this_request', 'app', 'appcontext_popped', 'appcontext_pushed', 'appcontext_tearing_down', 'before_render_template', 'blueprints', 'cli', 'config', 'copy_current_request_context', 'ctx', 'current_app', 'escape', 'flash', 'g', 'get_flashed_messages', 'get_template_attribute', 'globals', 'got_request_exception', 'has_app_context', 'has_request_context', 'helpers', 'json', 'json_available', 'jsonify', 'logging', 'make_response', 'message_flashed', 'redirect', 'render_template', 'render_template_string', 'request', 'request_finished', 'request_started', 'request_tearing_down', 'safe_join', 'send_file', 'send_from_directory', 'session', 'sessions', 'signals', 'signals_available', 'stream_with_context', 'template_rendered', 'templating', 'url_for', 'wrappers']
+Help on package flask:
+
+NAME
+    flask
+
+DESCRIPTION
+    flask
+    ~~~~~
+    
+    A microframework based on Werkzeug.  It's extensively documented
+    and follows best practice patterns.
+    
+    :copyright: © 2010 by the Pallets team.
+    :license: BSD, see LICENSE for more details.
+
+PACKAGE CONTENTS
+    __main__
+    _compat
+    app
+    blueprints
+    cli
+    config
+    ctx
+    debughelpers
+    globals
+    helpers
+    json (package)
+    logging
+    sessions
+    signals
+    templating
+    testing
+    views
+    wrappers
+
+FUNCTIONS
+    escape(...)
+        escape(s) -> markup
+        
+        Convert the characters &, <, >, ', and " in string s to HTML-safe
+        sequences.  Use this if you need to display text that might contain
+        such characters in HTML.  Marks return value as markup string.
+
+DATA
+    appcontext_popped = <blinker.base.NamedSignal object at 0x7f2afc353710...
+    appcontext_pushed = <blinker.base.NamedSignal object at 0x7f2afc353780...
+    appcontext_tearing_down = <blinker.base.NamedSignal object at 0x7f2afc...
+    before_render_template = <blinker.base.NamedSignal object at 0x7f2afc3...
+    current_app = <LocalProxy unbound>
+    g = <LocalProxy unbound>
+    got_request_exception = <blinker.base.NamedSignal object at 0x7f2afc34...
+    json_available = True
+    message_flashed = <blinker.base.NamedSignal object at 0x7f2afc353a20; ...
+    request = <LocalProxy unbound>
+    request_finished = <blinker.base.NamedSignal object at 0x7f2afc346828;...
+    request_started = <blinker.base.NamedSignal object at 0x7f2afc3466d8; ...
+    request_tearing_down = <blinker.base.NamedSignal object at 0x7f2afc346...
+    session = <LocalProxy unbound>
+    signals_available = True
+    template_rendered = <blinker.base.NamedSignal object at 0x7f2afc346630...
+
+VERSION
+    1.0.2
+
+FILE
+    /home/vinod/.local/lib/python3.6/site-packages/flask/__init__.py
+
+
+None
